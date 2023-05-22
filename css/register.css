@@ -1,0 +1,79 @@
+.registerbody {
+    width: 100%;
+    display: inline-block;
+    background-image: url('../images/horme/loginbg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#registerform{
+
+    
+    height: 300px;
+    border-radius: 20px;
+    margin: 200px auto;
+    width: 80%;
+    background-color:  rgba(93,109,124, 0.8);
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+}
+
+#registerform input{
+    margin: 10px 0;
+}
+
+
+
+
+.form{
+    
+    padding: 0;
+    width: 80%;
+    margin: 50px auto;
+    display: inline-block;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+}
+
+.left{
+    text-align: left;
+    display: flex;
+}
+
+.right{
+    text-align: left;
+    display: flex;
+}
+
+.right .labels label{
+    display: inline-block;
+    margin: 10px 100px;
+    margin-left: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.left .labels label{
+    display: inline-block;
+    margin: 10px 100px;
+    margin-right: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+
+.buttons{
+
+    display: flex;
+    width: 94%;
+    justify-content: space-between;
+}

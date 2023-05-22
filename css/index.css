@@ -1,0 +1,160 @@
+.banner{
+    width: 90%;
+    margin: 30px auto;
+    
+}
+
+.banner img {
+    width: 100%;
+}
+
+
+
+.selection{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+
+   display: flex;
+   justify-content: space-around;
+   font-size: 30px; 
+   margin: 25px;
+   padding: 25px;
+
+   border-top: 5px solid black ;
+   border-bottom: 5px solid black;
+   
+}
+
+
+
+.grid-container{
+
+    border: 3px solid black;
+    padding: 50px;
+    
+
+    display: none;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: 50% 50% ;
+    width: 80%;
+    margin: 50px auto;
+    /* background-color: rgba(128,0,0,0.75); */
+    /* background-color: #5d6d7c; */
+    background-color: rgba(128,0,0,0.75);
+
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: maroon;
+
+}
+
+.grid-items{
+    
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.grid-items h4{
+    font-weight: bold;
+}
+
+.image{
+    width: 50%;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.image img{
+    width: 100%;
+}
+
+.productdesc{
+    width: 50%;
+
+}
+
+/*  mobile (480px width)
+    tablet (768px width)
+    desktop (1366px width)*/
+
+@media screen and (max-width: 768px) {
+
+    .banner {
+        width: 100%;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    .grid-container{
+
+        border: 3px solid black;
+        padding: 50px;
+        
+    
+        display: grid;
+        grid-template-columns: 100% ;
+        
+        width: 80%;
+        margin: 50px auto;
+        background-color: rgba(128,0,0,0.75);
+        
+        
+    }
+
+
+
+    
+}
+
+@media screen and (max-width: 480px) {
+
+    .banner {
+        width: 100%;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    .grid-container{
+
+        border: 3px solid black;
+        display: grid;
+        grid-template-columns: 100% ;
+        padding: 0;
+        
+        width: 90%;
+        margin: 50px auto;
+        background-color: rgba(128,0,0,0.75);
+    }
+
+    .selection {
+        font-size: 20px;
+        
+    }
+
+    .productpara{
+        display: none;
+    }
+
+
+
+
+
+}
+
+

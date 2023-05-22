@@ -1,0 +1,74 @@
+.product
+{   margin: 150px auto;
+    border: 10px double maroon;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.details{
+    width: 40%;
+}
+
+.image{
+    width: 40%;
+}
+
+.image img{
+    display: block;
+    margin:  50px auto;
+    width: 40%;
+}
+
+.name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: maroon;
+    margin-top: 40px;
+
+
+}
+
+.description{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.price{
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+@media screen and (max-width: 768px){
+    .image img{
+        display: block;
+        margin:  50px auto;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+.product
+{   margin: 50px auto;
+    border: 10px double maroon;
+    
+    display: block;
+    justify-content: space-around;
+}
+
+.image{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.details{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+
+}

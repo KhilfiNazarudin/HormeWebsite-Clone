@@ -1,0 +1,175 @@
+#section-content{
+    width: 90%;
+    margin: auto;
+}
+
+.paragraphs2{
+    display: none;
+}
+
+#content2{
+    display: none;
+}
+
+#heading{
+    text-align: center;
+    font-size: 70px;
+    width: 40%;
+    margin: 50px auto;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+#heading2{
+    text-align: center;
+    font-size: 40px;
+    width: 50%;
+    margin: 50px auto;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#para1{
+    line-height: 30px;
+
+    width: 80%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+#content{
+    color: white;
+    margin: 100px auto;
+    margin-top: 0;
+
+    width: 80%;
+    height: 600px;
+    
+   
+
+    display: flex;
+    justify-content: space-around;
+
+    
+
+    background-image: url('../images/horme/Horme_Def.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.paragraphs{
+    margin: 40px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.paragraphs p b{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+
+}
+
+@media screen and (max-width: 768px){
+
+    
+
+    section #heading{
+        width: 40%;
+        font-size: 45px;
+    }
+
+    section #heading2{
+        font-size: 33px;
+    }
+
+    #para1{
+        margin-bottom: 100px;
+    }
+
+    .paragraphs{
+    margin: 20px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #content{
+        width: 100%;
+        font-size: 12px;
+        background-position: top;
+        margin-bottom: 0;
+
+        
+    }
+
+    .paragraphs p b{
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: italic;
+    
+    }
+
+
+}
+
+@media screen and (max-width: 480px){
+
+    section #heading{
+        text-align: center;
+        font-size: 30px;
+        width: 30%;
+        margin: 50px auto;
+    }
+
+    section #heading2{
+        font-size: 20px;
+    }
+
+    
+
+    .paragraphs p b{
+        font-size: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: italic;
+    
+    }
+
+    #content{
+        display: none;
+        width: 100%;
+        font-size: 7px;
+        background-position: top;
+        margin-bottom: 0;
+        background-size: 100%;
+
+        
+    }
+
+    #content2{
+        display: block;
+    }
+
+    #content2 img{
+        width: 100%;
+    }
+
+    .paragraphs2 p b{
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: italic;
+    
+    }
+
+    .paragraphs2{
+        display: block;
+        margin: 40px auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+    
+
+}
+
+
+
+
+

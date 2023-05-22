@@ -1,0 +1,71 @@
+.loginbody {
+    width: 100%;
+    display: inline-block;
+    background-image: url('../images/horme/loginbg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#loginform{
+
+    
+    height: 250px;
+    border-radius: 20px;
+    margin: 200px auto;
+    width: 80%;
+    background-color:  rgba(93,109,124, 0.8);
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#loginform input{
+    margin: 10px 0;
+}
+
+
+
+
+.form{
+    padding: 0;
+    margin: 50px auto;
+    display: inline-block;
+    
+}
+
+
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.buttons input{
+    padding: 10px ;
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 480px)
+{
+    
+    #loginform{
+        text-align: center;
+        height: 300px;
+        
+    }
+    .buttons{
+        display: flex;
+        width: 100%;
+    }
+    
+    .buttons input{
+        padding: 10px ;
+    }
+}

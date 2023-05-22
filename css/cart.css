@@ -1,0 +1,20 @@
+.productcontainer{
+    border: 1px solid black;
+    width: 50%;
+    margin: 50px auto;
+    display: flex;
+
+}
+
+.image{
+    width: 50%;
+}
+
+.image img{
+    width: 80%;
+}
+
+.name, .price , .qty{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}

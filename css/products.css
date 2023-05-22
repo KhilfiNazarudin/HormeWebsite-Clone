@@ -1,0 +1,69 @@
+.item{
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    width: 70%;
+    margin: 50px auto;
+    border: 5px solid maroon;
+    padding: 2%;
+}
+.image{
+    display: block;
+}
+.item .image img{
+    display: block;
+    margin:  auto;
+    margin-top: 25px;
+    width: 40%;    
+}
+
+.pname{
+    
+    margin: 20px auto;
+    
+
+}
+
+.pname a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: maroon;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.pdesc{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px auto;
+
+}
+
+.pcat{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+    margin: 20px auto;
+}
+
+.pprice{
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px auto;
+
+}
+
+@media screen and (max-width: 768px) {
+
+.item .image img{
+    display: block;
+    margin:  auto;
+    margin-top: 25px;
+    width: 70%;  
+}
+
+}
+
+@media screen and (max-width: 480px) {
+    
+
+}   
+
